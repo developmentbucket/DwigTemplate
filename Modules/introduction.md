@@ -206,6 +206,16 @@ Modules/
 +-- Navigation/
     +-- menu-dwig.md             # Navigation/Menu trees
     +-- page-menu-dwig.md        # Navigation/PageMenu page trees
+    +-- mega-menu-dwig.md        # Navigation/MegaMenu panels
++-- Content/
+    +-- tabs-dwig.md             # Content/Tabs tabbed sections
+    +-- team-cards-dwig.md       # Content/TeamCard people cards
+    +-- accordion-dwig.md        # Content/Accordion collapsibles
+    +-- content-layout-dwig.md   # Content/ContentLayout card columns
+    +-- content-dwig.md          # Content/Content record lists
+    +-- tags-dwig.md             # Content/Tags pills
+    +-- testimonials-dwig.md     # Content/Testimonials quotes
+    +-- faq-dwig.md              # Content/FAQ questions
 ```
 
 ## 9. Adding per-skin settings with settings.json
