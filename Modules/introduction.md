@@ -203,6 +203,7 @@ Modules/
     +-- search-dwig.md           # Store/Search box and results
     +-- cart-dwig.md             # Store/Cart table and live updates
     +-- checkout-dwig.md         # Store/Checkout address and order
+    +-- product-bundle-dwig.md   # Shop/Product/Bundle sets
 +-- Navigation/
     +-- menu-dwig.md             # Navigation/Menu trees
     +-- page-menu-dwig.md        # Navigation/PageMenu page trees
