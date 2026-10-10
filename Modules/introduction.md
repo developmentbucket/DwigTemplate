@@ -189,6 +189,8 @@ Modules/
     +-- slider-dwig.md           # Media/Slider carousel skins
     +-- video-dwig.md            # Media/Video player skins
     +-- audio-dwig.md            # Media/Audio player skins
++-- Social/
+    +-- social-sharer-dwig.md  # Social/SocialSharer share buttons
 ```
 
 ## 9. Adding per-skin settings with settings.json
