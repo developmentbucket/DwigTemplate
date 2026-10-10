@@ -202,6 +202,10 @@ Modules/
     +-- add-to-cart-dwig.md      # Store/AddToCart buy buttons
     +-- search-dwig.md           # Store/Search box and results
     +-- cart-dwig.md             # Store/Cart table and live updates
+    +-- checkout-dwig.md         # Store/Checkout address and order
++-- Navigation/
+    +-- menu-dwig.md             # Navigation/Menu trees
+    +-- page-menu-dwig.md        # Navigation/PageMenu page trees
 ```
 
 ## 9. Adding per-skin settings with settings.json
