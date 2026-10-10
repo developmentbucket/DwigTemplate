@@ -201,6 +201,7 @@ Modules/
     +-- wishlist-dwig.md         # Store/WishList saved items
     +-- add-to-cart-dwig.md      # Store/AddToCart buy buttons
     +-- search-dwig.md           # Store/Search box and results
+    +-- cart-dwig.md             # Store/Cart table and live updates
 ```
 
 ## 9. Adding per-skin settings with settings.json
