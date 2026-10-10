@@ -192,6 +192,8 @@ Modules/
 +-- Social/
     +-- social-sharer-dwig.md  # Social/SocialSharer share buttons
     +-- social-links-dwig.md   # Social/SocialLinks profile icons
++-- Store/
+    +-- product-dwig.md          # Store/Product single-product skins
 ```
 
 ## 9. Adding per-skin settings with settings.json
