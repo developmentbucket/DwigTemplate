@@ -195,6 +195,7 @@ Modules/
 +-- Store/
     +-- product-dwig.md          # Store/Product single-product skins
     +-- products-dwig.md         # Store/Products list skins
+    +-- product-reviews-dwig.md  # Store/ProductReviews ratings and forms
 ```
 
 ## 9. Adding per-skin settings with settings.json
