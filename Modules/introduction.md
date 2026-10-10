@@ -197,6 +197,8 @@ Modules/
     +-- products-dwig.md         # Store/Products list skins
     +-- product-reviews-dwig.md  # Store/ProductReviews ratings and forms
     +-- filter-dwig.md           # Store/Filter controls
+    +-- store-categories-dwig.md # Store/StoreCategories cards
+    +-- wishlist-dwig.md         # Store/WishList saved items
 ```
 
 ## 9. Adding per-skin settings with settings.json
