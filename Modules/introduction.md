@@ -216,6 +216,23 @@ Modules/
     +-- tags-dwig.md             # Content/Tags pills
     +-- testimonials-dwig.md     # Content/Testimonials quotes
     +-- faq-dwig.md              # Content/FAQ questions
++-- Users/
+    +-- register-dwig.md         # Users/Register sign-up forms
+    +-- login-dwig.md            # Users/Login sign-in forms
+    +-- emails-dwig.md           # Users/Emails transactional mail
+    +-- dashboard-dwig.md        # Users/Dashboard account area
++-- Website/
+    +-- blog-comments-dwig.md    # Website/BlogComments threads
+    +-- posts-dwig.md            # Website/Posts blog feeds
+    +-- blog-categories-dwig.md  # Website/BlogCategories topic cards
++-- Utilities/
+    +-- utilities-dwig.md        # Utilities family (forms, map, consent)
+    +-- CookieNotice/
+        +-- cookie-notice-dwig.md  # Utilities/CookieNotice banner
+    +-- ConsentPrompt/
+        +-- consent-prompt-dwig.md  # Utilities/ConsentPrompt gate
+    +-- GoogleMap/
+        +-- google-map-dwig.md  # Utilities/GoogleMap embed
 ```
 
 ## 9. Adding per-skin settings with settings.json
