@@ -187,6 +187,8 @@ Modules/
     +-- picture-gallery-dwig.md  # Media/PictureGallery gallery skins
     +-- logo-dwig.md             # Media/Logo brand skins
     +-- slider-dwig.md           # Media/Slider carousel skins
+    +-- video-dwig.md            # Media/Video player skins
+    +-- audio-dwig.md            # Media/Audio player skins
 ```
 
 ## 9. Adding per-skin settings with settings.json
