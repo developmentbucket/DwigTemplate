@@ -191,6 +191,7 @@ Modules/
     +-- audio-dwig.md            # Media/Audio player skins
 +-- Social/
     +-- social-sharer-dwig.md  # Social/SocialSharer share buttons
+    +-- social-links-dwig.md   # Social/SocialLinks profile icons
 ```
 
 ## 9. Adding per-skin settings with settings.json
