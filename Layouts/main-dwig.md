@@ -47,7 +47,7 @@ What each part does:
 
 ## 3. SEO tags in `<head>` — use `data.seo`
 
-You do not hand-write the title, description, or social tags per page. The frontend entry point builds a ready-to-use `data.seo` array for every render and passes it to all `.dwig` templates, so your job in `main.dwig` is to place the tags once and every page inherits them.
+You do not hand-write the title, description, or social tags per page. DevelopmentBucket builds a ready-to-use `data.seo` array for every page and passes it to all `.dwig` templates, so your job in `main.dwig` is to place the tags once and every page inherits them.
 
 What `data.seo` contains:
 
@@ -76,7 +76,7 @@ Place this block in your `main.dwig` head. It is the standard pattern:
 
 Rules for this block:
 
-1. Read from `data.seo`, never from `data.content` directly. The entry point already resolved the content-versus-category choice and the website-setting fallbacks for you.
+1. Read from `data.seo`, never from `data.content` directly. The platform already resolved the content-versus-category choice and the website-setting fallbacks for you.
 2. Escape `title`, `description`, `keywords`, and `favicon`. These values come from editor input. Only `head_tags` renders raw, because it is intentional HTML from the Head Tags box.
 3. Guard `favicon` and `keywords` with `{% if %}`. Either can be empty, and an empty `href` or `content` attribute is worse than a missing tag.
 4. Keep `{{ data.seo.head_tags|raw }}` last in the block so per-page tags can override earlier ones.

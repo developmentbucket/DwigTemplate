@@ -4,7 +4,7 @@ This guide explains how to use `.dwig` template files to build a custom website.
 
 ## 1. What you are building
 
-A custom website is a layout shell plus page templates plus reusable module skins plus theme assets. DWIG files control presentation only. Module backend loads the data, and the `.dwig` file decides the HTML.
+A custom website is a layout shell plus page templates plus reusable module skins plus theme assets. DWIG files control presentation only. The backend loads the data, and the `.dwig` file decides the HTML.
 
 ## 2. What is a `.dwig` file
 
@@ -13,6 +13,7 @@ A `.dwig` file is a Theme Studio template. It uses Twig syntax. Three rules appl
 1. It controls presentation only, never data loading or settings saving.
 2. Auto-escaping is off, so escape output yourself with `|e` for text and `|e('html_attr')` for attributes. Use `|raw` only for trusted HTML.
 3. Use safe defaults for anything optional, for example `data.posts|default([])`.
+4. All frontend JavaScript goes through `window.dbEvent` from `userfiles/modules/developmentbucket/db_lib/events/common.js`. Never reference the `mw` JS library.
 
 ## 3. The five template families
 
@@ -62,5 +63,5 @@ The `type` selects the module, `template` selects the skin, and `id` must be sta
 
 ## 7. Data rules
 
-There is no single data contract for all templates. Each renderer passes its own `data.*` values, so check that module's backend entry point and its `default.dwig` before writing a skin. Common page values include `data.content`, `data.content_data`, `data.post`, `data.product`, `data.posts`, `data.products`, and `data.category`. Never hardcode URLs or currency. Use resolved `link` and `url` values with `currency_format()`, and load theme files with `assets()`.
+There is no single data contract for all templates. Each module passes its own `data.*` values, so check that module's doc and its `default.dwig` before writing a skin. Common page values include `data.content`, `data.content_data`, `data.post`, `data.product`, `data.posts`, `data.products`, and `data.category`. Never hardcode URLs or currency. Use resolved `link` and `url` values with `currency_format()`, and load theme files with `assets()`.
 
